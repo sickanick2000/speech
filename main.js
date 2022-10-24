@@ -12,7 +12,7 @@ Recognition.onresult = function(event){
     console.log(content);
     phrase = content.toLowerCase();
     document.getElementById("text_box").innerHTML = phrase;
-    if(phrase=="take my selfie.")
+    if(phrase=="take my selfie")
     {
         speak();
     }
